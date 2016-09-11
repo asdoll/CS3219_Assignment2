@@ -34,9 +34,9 @@ public class fullTest {
             CircularShift shifter = new CircularShift(str);
             alphabetizer.addLines(shifter.getCircularShifts());
         }
-        RequiredWords requiredwords = RequiredWords.getRequiredWords();
-        requiredwords.addRequiredWords("Star");
-        requiredwords.addRequiredWords("Space");
+        //RequiredWords requiredwords = RequiredWords.getRequiredWords();
+       // requiredwords.addRequiredWords("Star");
+      //  requiredwords.addRequiredWords("Space");
 
         String[] result = alphabetizer.getSortedLines();
         StringBuilder builder = new StringBuilder();
